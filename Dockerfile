@@ -1,5 +1,6 @@
-FROM eclipse-temurin:17-jdk-alpine
+FROM openjdk:17-oracle
+#Un contoneur est une machine virtuel
 VOLUME /tmp
 COPY target/*.jar app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
-EXPOSE 9095
+#Au moment de demarage exceuter ces commandes la :
+ENTRYPOINT ["java","-jar", "/app.jar"]
