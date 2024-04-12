@@ -1,0 +1,5 @@
+org\fsts\fluttercleanarchapi\Entity\Product.class
+org\fsts\fluttercleanarchapi\FlutterCleanArchApiApplication.class
+org\fsts\fluttercleanarchapi\Repository\ProductRepository.class
+org\fsts\fluttercleanarchapi\Service\ProductService.class
+org\fsts\fluttercleanarchapi\Controller\ProductController.class
